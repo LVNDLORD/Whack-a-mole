@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: rgb(94, 89, 89);
+    background: url(img/farm_bg.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  button {
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 14%);
+    text-transform: uppercase;
+    box-shadow: 0 4px 9px 0 rgb(0 0 0 / 20%);
+    border-radius: 100px !important;
+    padding: 18px 49px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.top {
+    height: 15rem;
+    width: 50rem;
+    margin: 7rem auto;
+    align-items: center;
+    top: 8rem;    
+}  
+
+.grid {
+    position: relative;
+    background-color: none;
+    margin: 8rem auto;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor:url(img/hammer100.png), auto;
+}
+
+.flexbox {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 15rem;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+
+.square {
+    height: 185px;
+    width: 185px;
+    border: solid black 1px;
+    border-radius: 50%;
+    background-color: #61380f;
+    margin-top: 9px;
+    
+}
+
+.square:hover {
+    box-shadow: 3px 3px 20px;
+    transition: 0.2s;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.mole {
+    background-image: url("img/mole.png");
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition:all 1s ease;
+       -moz-transition:all 1s ease;
+        -ms-transition:all 1s ease;
+         -o-transition:all 1s ease;
+            transition:all 1s ease; 
+
+}
+
+.start {
+    background-color: rgb(32, 179, 32);
+    color: white;
+}
+
+
+.again {
+    background-color: rgb(247, 54, 54);
+    color: white;
+}
+
+.start:hover {
+    box-shadow: 3px 3px 10px rgb(14, 126, 14);
+    background-color: rgb(24, 143, 24);
+    transition: 0.5s;
+}
+
+.again:hover {
+    box-shadow: 3px 3px 10px rgb(194, 14, 14);
+    background-color: rgb(194, 31, 31);
+    transition: 0.5s;
+}
+
